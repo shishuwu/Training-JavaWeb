@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+</head>
+<body>
+	<fmt:formatDate value="<%=new Date();%>" pattern="yyyy-MM-dd HH:mm:ss" />
+</body>
+</html>

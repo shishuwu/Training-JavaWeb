@@ -19,4 +19,6 @@
 	- 对应的controller类
 	- 以及返回时对应的view
 ## Maven
-* 
+* ThreadLocal
+-- 资源copy，自动与thread-id map
+-- 自动根据thread-id获取对应的资源

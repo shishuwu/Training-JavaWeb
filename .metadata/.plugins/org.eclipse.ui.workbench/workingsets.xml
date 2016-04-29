@@ -5,6 +5,7 @@
 <item elementID="=Web2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
 <item elementID="=Web3-jsp" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=MvnProj" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1461832016713_0" label="Window Working Set" name="Aggregate for window 1461832016713"/>
 </workingSetManager>

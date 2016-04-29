@@ -1,0 +1,11 @@
+package com.action;
+
+public class UserAction {
+	public String toreg(){
+		return "reg";
+	}
+	
+	public String doreg(){
+		return "main";
+	}
+}

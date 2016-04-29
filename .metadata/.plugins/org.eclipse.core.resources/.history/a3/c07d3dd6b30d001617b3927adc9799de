@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<!-- <constant name="struts.objectFactory" value="org.apache.struts2.spring.StrutsSpringObjectFactory"></constant> 
+		<package name="user" namespace="/user" extends="struts-default"> <action 
+		name="userAction" class="userActionXXX"> <result name="succ">/success.jsp</result> 
+		</action> </package> -->
+
+	<package name="test" namespace="/user" extends="struts-default">
+		<action name="helloAction" class="com.action.HelloAction">
+			<result name="success">/main.jsp</result>
+		</action>
+		
+		<action name="userAction" class="com.action.UserAction">
+			<result name="reg">/reg.jsp</result>
+			<result name="reg">/main.jsp</result>
+		</action>
+	</package>
+</struts>

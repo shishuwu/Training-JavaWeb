@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\shishu.AUTH\workspace_training\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\shishu.AUTH\workspace_training\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Web2" path="/Web2" reloadable="true" source="org.eclipse.jst.jee.server:Web2"/><Context docBase="C:\Users\shishu.AUTH\workspace_training\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Web3-jsp" path="/Web3-jsp" reloadable="true" source="org.eclipse.jst.jee.server:Web3-jsp"/></Host>
+      <Context docBase="C:\Users\shishu.AUTH\workspace_training\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\shishu.AUTH\workspace_training\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Web2" path="/Web2" reloadable="true" source="org.eclipse.jst.jee.server:Web2"/><Context docBase="C:\Users\shishu.AUTH\workspace_training\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Web3-jsp" path="/Web3-jsp" reloadable="true" source="org.eclipse.jst.jee.server:Web3-jsp"/><Context docBase="C:\Users\shishu.AUTH\workspace_training\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\MvnProj" path="/MvnProj" reloadable="true" source="org.eclipse.jst.j2ee.server:MvnProj"/></Host>
     </Engine>
   </Service>
 </Server>

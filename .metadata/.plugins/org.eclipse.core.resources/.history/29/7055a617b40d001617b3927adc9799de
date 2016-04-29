@@ -1,0 +1,14 @@
+package com.action;
+
+import org.apache.struts2.ServletActionContext;
+
+public class UserAction {
+	public String toreg(){
+		return "reg";
+	}
+	
+	public String doreg(){
+		ServletActionContext.getRequest();
+		return "main";
+	}
+}
